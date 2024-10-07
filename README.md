@@ -9,3 +9,7 @@ Personal Development Environment
 - https://wezfurlong.org/wezterm/installation.html
 - https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
 - https://www.lazyvim.org/installation
+
+## Python
+- https://pipx.pypa.io/stable/installation/#on-windows
+- https://python-poetry.org/docs/#installation
