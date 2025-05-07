@@ -39,6 +39,17 @@ Personal Development Environment
 ## Terminal Emulator
 - https://wezfurlong.org/wezterm
 
+## Tmux Sessionizer
+- I forked https://github.com/ThePrimeagen/tmux-sessionizer, which is great for storing project context
+
+### Tmux
+
+| **Keybind** | **Function** |
+| --- | --- |
+| tmux ls | list sessions |
+| tmux a -t <session> | attach to session tag |
+| tmux kill-ses -t <session> | kill tagged session |
+
 ## Setup
 - https://www.msys2.org/
 - https://cpp-lang.net/tools/standalone/compilers/setup-gcc-windows/
