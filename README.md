@@ -49,6 +49,7 @@ Personal Development Environment
 | tmux ls | list sessions |
 | tmux a -t <session> | attach to session tag |
 | tmux kill-ses -t <session> | kill tagged session |
+| ctrl+b+d | detach from session |
 
 ## Setup
 - https://www.msys2.org/
