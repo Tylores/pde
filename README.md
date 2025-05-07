@@ -51,6 +51,12 @@ Personal Development Environment
 | tmux kill-ses -t <session> | kill tagged session |
 | ctrl+b d | detach from session |
 
+## LazyVIM
+
+| **Keybind** | **Function** |
+| --- | --- |
+| space (h,l) | move buffer (left, right) |
+
 ## Setup
 - https://www.msys2.org/
 - https://cpp-lang.net/tools/standalone/compilers/setup-gcc-windows/
