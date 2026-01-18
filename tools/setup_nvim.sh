@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # requirments
-sudo add-apt-repository ppa:neovim-ppa/unstable -y
+sudo add-apt-repository ppa:neovim-ppa/stable -y
 sudo apt update
 sudo apt install make gcc ripgrep unzip git xclip neovim
 
@@ -12,4 +12,5 @@ wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/do
 && rm JetBrainsMono.zip \
 && fc-cache -fv
 
+sudo rm -rf ~/.config/nvim
 git clone https://github.com/Tylores/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
