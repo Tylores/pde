@@ -11,4 +11,4 @@ sudo rm -rf ~/.config/nvim
 sudo rm -rf ~/.local/share/nvim/lazy
 sudo rm -rf ~/.local/state/nvim/lazy
 sudo rm -rf ~/.config/nvim/lazy-lock.json
-git clone https://github.com/Tylores/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone -b personal https://github.com/Tylores/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
