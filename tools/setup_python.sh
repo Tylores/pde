@@ -5,3 +5,7 @@ sudo apt install curl python3 python3-pip python3-venv
 
 curl -sSL https://install.python-poetry.org | python3 -
 poetry self update
+
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+source $HOME/.local/bin/env

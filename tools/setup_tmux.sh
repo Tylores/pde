@@ -3,4 +3,5 @@
 sudo apt update
 sudo apt install tmux fzf
 
-git clone https://github.com/Tylores/tmux-sessionizer.git "${XDG_CONFIG_HOME:-$HOME/.local/bin}"
+# config mouse on for all new sessions
+tmux set-options -s $SSH_SESSION tmux set-mouse on
