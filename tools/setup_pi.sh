@@ -2,10 +2,10 @@
 
 # install ollama for hosting model
 curl -fsSL https://ollama.com/install.sh | sh
-ollama pull gemma4:12b
+ollama pull lfm2.5
 
 # install Pi agent
-curl -fsSL https://pi.dev/install.sh | sh
+curl -fsSL https://omp.sh/install | sh
 export EDITOR="nvim"
 
 
